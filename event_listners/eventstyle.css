@@ -1,0 +1,50 @@
+* {
+  margin: 20px;
+  padding: 10px;
+  background-color: beige;
+}
+#main-heading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: cneter;
+  padding: 60px 60px;
+}
+.boxes {
+  background-color: aqua;
+  padding: 60px 60px;
+  margin: 10px;
+  border: solid black;
+  text-align: center;
+  font-size: 12px;
+}
+
+#heading {
+  background-color: antiquewhite;
+  border: solid yellow;
+}
+#conttwo {
+  height: 350px;
+  width: 500px;
+
+  padding: 5px;
+}
+
+.hidden-content {
+  padding: 5px;
+  height: 350px;
+  width: 500px;
+  display: none;
+}
+
+.hidden-content.reveal-btn {
+  display: block;
+}
